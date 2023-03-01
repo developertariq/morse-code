@@ -105,38 +105,9 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/developertariq/bookstore.git
+  git clone https://github.com/developertariq/morse-cod.git
 
 ```
-
-### Install
-
-Install this project with:
-
-```sh
-  cd my-project
-  npm install
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-  npm run start
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  npm test
-```
-
-### Deployment
-
-You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
