@@ -30,3 +30,16 @@ def decode_char(code)
   
   morse_codes[code] || ""
 end
+
+
+def decode_word(code)
+  codes = code.split(" ")
+  
+  result = ""
+  codes.each do |c|
+    decoded_char = decode_char(c)
+    result += decoded_char if decoded_char
+  end
+  
+  result 
+end
