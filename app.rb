@@ -53,3 +53,15 @@ def decode_word(code)
   
   result 
 end
+
+def decode_message(code)
+  words = code.split("   ")
+  
+  result = ""
+  words.each do |w|
+    decoded_word = decode_word(w)
+    result += decoded_word + " " if decoded_word
+  end
+  
+  result.strip
+end
